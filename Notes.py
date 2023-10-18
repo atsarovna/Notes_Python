@@ -106,7 +106,7 @@ def list_notes(notes):
         print()
     else:
         for note in notes:
-            print(f"{note.id}:{note.title} ({note.timestamp})")
+            print(f"ID {note.id}: {note.title} ({note.timestamp})")
             print(note.body)
             print()
 
